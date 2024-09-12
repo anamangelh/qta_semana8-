@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="360dp"
+    android:layout_height="952dp"
+    android:accessibilityLiveRegion="assertive"
+    android:background="#FFFFFF"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <TextView
+        android:id="@+id/cuanto_necesita"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:text="El valor de la propiedad no puede ser inferior a $71.000.000propiedad"
+        android:textColor="#070707"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227" />
+
+    <TextView
+        android:id="@+id/cuanto_necesita"
+        android:layout_width="314dp"
+        android:layout_height="96dp"
+        android:text="Van desde los 5 hasta los 20 años. El plazo más: común es de 20 años."
+        android:textColor="#070707"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="702dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip"
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="692dp" />
+
+    <TextView
+        android:id="@+id/tasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*¿A qué tasa de interés efectiva anual (TAE)?"
+        android:textColor="#A30A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+
+    <TextView
+        android:id="@+id/tasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*¿A qué plazo necesita el crédito (años)?"
+        android:textColor="#A30A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <TextView
+        android:id="@+id/cuanto_necesita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Valor de propiedad"
+        android:textColor="#A30A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="387dp"
+        android:layout_height="48dp"
+        android:background="#BF0909"
+        android:breakStrategy="high_quality"
+        android:text="Simuladores"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <TextView
+        android:id="@+id/TITULO"
+        android:layout_width="316dp"
+        android:layout_height="58dp"
+        android:breakStrategy="simple"
+        android:fontFamily="sans-serif"
+        android:text="Crédito Hipotecario en Colombia"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <Button
+        android:id="@+id/btnSimular"
+        android:layout_width="316dp"
+        android:layout_height="48dp"
+        android:background="#CA0303"
+        android:text="Simular"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="1267dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="294dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip"
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/cuanto_necesita"
+        android:layout_width="303dp"
+        android:layout_height="93dp"
+        android:text="El préstamo mínimo es de $50.000.000 y no puede exceder el 70% del valor de la propiedad para créditos hipotecarios, mientras que para leasing habitacional no puede exceder el 80% del valor de la propiedad"
+        android:textColor="#070707"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426" />
+
+    <TextView
+        android:id="@+id/cuanto_necesita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*¿Cuánto necesita?"
+        android:textColor="#A30A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="297dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip"
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/cuanto_necesita"
+        android:layout_width="314dp"
+        android:layout_height="96dp"
+        android:text="Van desde los 5 hasta los 20 años. El plazo más: común es de 20 años."
+        android:textColor="#070707"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="308dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="316dp"
+        android:layout_height="48dp"
+        android:text="Simulador"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconTint="#CF1B1B"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="838dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
